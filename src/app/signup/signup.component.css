@@ -1,0 +1,58 @@
+/* 
+#home{
+height:720px;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+   }
+
+.box{
+   width:35%;
+   margin-top: 7%;
+
+}
+.a{
+   font-weight: bolder;
+   margin-left: 8px;
+   text-decoration: none;
+   color:gold
+}
+.card{
+   background-color: beige;
+
+}
+h4{
+   padding-top: 5px;
+}
+input{
+   width: 60%;
+   margin-left: 80px;
+} */
+
+.my-nav{
+   background-color: rgb(201, 122, 122) ;
+}
+.navbar-brand{
+   font-weight:900;
+   font-size:xx-large;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(80, 11, 11);
+}
+.form-inline a{
+   font-weight: bolder;
+   margin-left: 20px;
+   text-decoration: none;
+   color:rgb(80, 11, 11);
+} 
+#home{
+   height: 583px;
+   background-size: cover;
+}
+.signup-section{
+   width: 500px;
+   text-align: center;
+   margin-top: 20px;
+   background-color: ivory;
+   padding: 5px 50px;
+}

@@ -1,0 +1,35 @@
+/* #home{
+    height: 552px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+a{
+    
+    margin-left: 250px;
+    text-decoration: none;
+    color: bisque;
+}
+.card{
+    background-color: bisque;
+} */
+.my-nav{
+    background-color: rgb(201, 122, 122) ;
+}
+.navbar-brand{
+    font-weight:900;
+    font-size:xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(80, 11, 11);
+}
+ a{
+    font-weight: bolder;
+    margin-left: 20px;
+    text-decoration: none;
+    color:rgb(80, 11, 11);
+} 
+#home{
+    margin-top: 100px;
+}

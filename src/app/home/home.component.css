@@ -1,0 +1,27 @@
+.my-nav{
+    background-color: rgb(201, 122, 122) ;
+}
+.navbar-brand{
+    font-weight:900;
+    font-size:xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(80, 11, 11);
+}
+#home{
+    height: 590px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+.btn{
+    background-color: rgb(80, 11, 11) ;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: ivory ;
+    color: darkred;
+    font-size: large;
+    font-weight: 600;
+}

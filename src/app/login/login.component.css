@@ -1,0 +1,47 @@
+/* #home{
+    height: 552px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+.con{
+    
+    background-color:beige;
+    text-align: center;
+    padding: 30px;
+    padding-top: 15px;
+    margin: 50px;
+    margin-left: 30%;
+    width: 300px;
+    height: 400px;
+}*/
+.my-nav{
+    background-color: rgb(201, 122, 122) ;
+}
+.navbar-brand{
+    font-weight:900;
+    font-size:xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(80, 11, 11);
+}
+.form-inline a{
+    font-weight: bolder;
+    margin-left: 20px;
+    text-decoration: none;
+    color:rgb(80, 11, 11);
+} 
+#home{
+    height: 583px;
+    background-size: cover;
+}
+.login-section{
+    width: 500px;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(188, 222, 233);
+    margin-top: 20px;
+}

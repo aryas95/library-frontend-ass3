@@ -1,0 +1,65 @@
+
+<!--books page-navbar-->
+<nav class="navbar navbar-expand-lg navbar-light my-nav">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand ml-5 text-uppercase" href="#">Library</a>
+    <form class="form-inline text-uppercase ms-auto mr-5">
+      <a routerLink="/book">book</a>&nbsp;
+      <a routerLink="/addbook">addbook</a>&nbsp;
+      <a routerLink="">logout</a>&nbsp;
+    </form>
+  </div>
+</nav>
+<!--books page-navbar ends-->
+
+
+<div class='card'>
+    <form (ngSubmit)="editProduct()">
+<div class='card-header'>
+ Edit Product
+</div>
+<div class='card-body'>            
+  <div class='table-responsive'>
+    <table class='table'>       
+    
+      <tbody>  
+          <!-- <tr>
+              <td> <label>book Id</label></td>
+              <td><input type="text" name="p_id"  [(ngModel)]="productItem.productId"/></td>                  
+            </tr>    -->
+            <tr>
+                <td><label>image</label></td>
+                <td><input type="text" name="p_image" [(ngModel)]="buk.image"/></td>                  
+              </tr>  
+              <tr>
+                <td><label>name</label></td>
+                <td><input type="text" name="p_buk" [(ngModel)]="buk.name"/></td>                  
+              </tr>  
+              <tr>
+                <td><label>author name</label></td>
+                <td><input type="text" name="p_name" [(ngModel)]="buk.authorname"/></td>                  
+              </tr>  
+              <tr>
+                <td><label>price</label></td>
+                <td><input type="text" name="p_price" [(ngModel)]="buk.price"/></td>                  
+              </tr>  
+              <tr>
+                <td> <label>starRating</label></td>
+                <td><input type="text" name="p_rate" [(ngModel)]="buk.starRating"/></td>                  
+              </tr>  
+               
+                
+              <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" /></td>                  
+              </tr>             
+      </tbody>
+    </table>
+  </div>
+</div>
+</form>
+</div>
+
